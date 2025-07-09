@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "c96a1ba3-1dda-42ee-8526-f36eeb775f99",
+		"name": "ms-people-webflux-reactive",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6166502"
+	},
+	"item": [
+		{
+			"name": "find mono person",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/person/find",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person",
+						"find"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "find-just mono person",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/person/find-just/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person",
+						"find-just",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "find-map mono person",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/person/find-map/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person",
+						"find-map",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "find-api mono person",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/person/find-api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person",
+						"find-api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "find all fluxo people",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/person/flux",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person",
+						"flux"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
